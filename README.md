@@ -39,5 +39,5 @@ There are a number of reasons why this is extremely difficult. In terms of proje
 
 ## Links:
 
-SCMs: https://www.wikiwand.com/en/articles/Synthetic_control_method
-MMMs: https://www.wikiwand.com/en/articles/Multimodal_learning
+- SCMs: https://www.wikiwand.com/en/articles/Synthetic_control_method
+- MMMs: https://www.wikiwand.com/en/articles/Multimodal_learning
