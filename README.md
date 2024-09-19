@@ -9,7 +9,7 @@ There are a number of reasons why this is extremely difficult. In terms of proje
 1. real estate data is complex, and variales of interest such as home prices depend on factors that are both static and dynamic (e.g. the number of bedrooms or the current interest rate).
 2. The information we want to provide makes this a causal inference problem - as this tool would essentially perform an intervention analysis to model changes in an existing environment ("how would this new home that is planned to be built change...") - necessitating (IMO) the use of a causal model; in this case, synthetic control methods (SCMs).
 ..* note: we will be careful to add context when referring to synthetic control methods and a structural causal model as both share the same abbreviation.
-3. The usefulness of the tool stems from its ability to provide insight into such changes at the local level for the user, which in terms of model building means that we'll need to implement some kind of spatial filtering mechanism, not sure how to do this at the moment.
+4. The usefulness of the tool stems from its ability to provide insight into such changes at the local level for the user, which in terms of model building means that we'll need to implement some kind of spatial filtering mechanism, not sure how to do this at the moment.
 
 ## Prototype System:
 
