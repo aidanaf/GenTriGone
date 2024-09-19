@@ -4,7 +4,11 @@
 
 Currently, the goal of this project is to create a tool that will allow the user to estimate how the addition of a new property (residential or commerical) to their locality (e.g. neighborhood) will induce a change in variables such as how much they may pay in taxes or the current value of their home, with the hope that this tool may help residents combat gentrification.
 
-There are a number of reasons why this is extremely difficult. In terms of project implementation, we need to deal with the fact that 1) real estate data is complex, and variales of interest such as home prices depend on factors that are both static and dynamic - e.g. the number of bedrooms or the current interest rate. 2) The information we want to provide makes this a causal inference problem - as this tool would essentially perform an intervention analysis to model changes in an existing environment ("how would this new home that is planned to be built change...") - necessitating (IMO) the use of a causal model, in this case synthetic control methods (SCMs). 3) The usefulness of the tool stems froms ability to provide insight into such changes at the local level for the user, which in terms of model building means that we'll need to implement some kind of spatial filtering mechanism, not sure how to do this at the moment.
+There are a number of reasons why this is extremely difficult. In terms of project implementation, we need to deal with the fact that
+
+1. real estate data is complex, and variales of interest such as home prices depend on factors that are both static and dynamic - e.g. the number of bedrooms or the current interest rate.
+2. The information we want to provide makes this a causal inference problem - as this tool would essentially perform an intervention analysis to model changes in an existing environment ("how would this new home that is planned to be built change...") - necessitating (IMO) the use of a causal model, in this case synthetic control methods (SCMs).
+3. The usefulness of the tool stems froms ability to provide insight into such changes at the local level for the user, which in terms of model building means that we'll need to implement some kind of spatial filtering mechanism, not sure how to do this at the moment.
 
 ## Prototype System:
 
